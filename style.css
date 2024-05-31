@@ -247,7 +247,7 @@ input {
     display: flex;
     flex-direction: column-reverse;
     border: 1px solid red;
-    /* width: 900px; */
+    width: 900px;
     position: relative;
     left: 100px;
   }
@@ -282,7 +282,7 @@ input {
     flex-direction: column-reverse;
     border: 1px solid red;
     /* margin-left: 150px; */
-    /* width: 900px; */
+    width: 900px;
     position: relative;
     left: 100px;
   }
@@ -306,10 +306,9 @@ input {
     height: 100px;
   }
   #city-section {
-    text-align: center;
-
     position: relative;
     left: 100px;
+    width: 900px;
   }
   #city-link {
     font-size: 40px;
@@ -323,6 +322,7 @@ input {
     display: flex;
     flex-direction: column;
     padding: 15px;
+    width: 800px;
   }
   #date {
     margin: 25px;
