@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navbar-container {
+  display: flex;
+  padding: 15px;
+  margin-top: 10px;
+  border-bottom: 1px solid rgb(80, 80, 80);
+}
+#days-tag {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 900;
+  color: rgb(80, 80, 80);
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  padding: 5px;
+}
+#date {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(80, 80, 80);
+}
+#name-id {
+  font-size: 20px;
+  line-height: 29px;
+  font-weight: 900;
+  color: rgb(80, 80, 80);
+  font-family: "Lato", sans-serif;
+  padding: 5px;
+}
+#place-city {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Lato", sans-serif;
+  padding: 5px;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+#city {
+  font-size: 14px;
+  line-height: 17px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  font-style: normal;
+  color: rgb(80, 80, 80);
+}
+#purchase-box-container {
+  border: 1px solid rgb(207, 207, 207);
+  width: 500px;
+  margin: auto;
+  margin-top: 20px;
+}
+#svg {
+  margin: auto;
+  padding: 10px;
+}
+#tickets-purchase-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#tickets-purchase-box:hover {
+  background-color: rgb(242, 249, 255);
+}
+#tickets-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 22px;
+  color: rgb(80, 80, 80);
+  font-family: "Lato", sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+}
+#purchase-link {
+  font-size: 30px;
+  line-height: 17px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  font-style: normal;
+  color: black;
+  padding: 10px;
+  margin: 10px;
+}
