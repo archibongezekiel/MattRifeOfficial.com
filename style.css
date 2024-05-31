@@ -247,7 +247,9 @@ input {
     display: flex;
     flex-direction: column-reverse;
     border: 1px solid red;
-    width: 900px;
+    /* width: 900px; */
+    position: relative;
+    left: 100px;
   }
   #social-media-container {
     margin: auto;
@@ -280,7 +282,9 @@ input {
     flex-direction: column-reverse;
     border: 1px solid red;
     /* margin-left: 150px; */
-    width: 900px;
+    /* width: 900px; */
+    position: relative;
+    left: 100px;
   }
   #comedian-photo {
   }
@@ -296,5 +300,50 @@ input {
   }
   #tour-title {
     margin-top: 30px;
+  }
+  #upcoming-show {
+    width: 700px;
+    height: 100px;
+  }
+  #city-section {
+    text-align: center;
+
+    position: relative;
+    left: 100px;
+  }
+  #city-link {
+    font-size: 40px;
+  }
+  p {
+    font-size: 40px;
+  }
+  #ticket-table {
+    position: relative;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
+  #date {
+    margin: 25px;
+    font-size: 35px;
+  }
+  #location-center {
+    margin: 25px;
+  }
+  #city-state {
+    margin: 25px;
+    font-size: 40px;
+  }
+  #arena-center {
+    font-size: 30px;
+  }
+  #ticket-button {
+    margin: 25px;
+    font-size: 30px;
+    width: 280px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 20px;
   }
 }
