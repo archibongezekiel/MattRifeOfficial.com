@@ -91,7 +91,7 @@ a {
   padding: 5px;
 }
 #photo-container {
-  height: 100vh;
+  height: 32vh;
 }
 #about-matt-rife-container {
   display: flex;
@@ -131,4 +131,66 @@ footer {
 }
 li {
   padding: 10px;
+}
+@media only screen and (max-width: 1080px) {
+  #navbar-container {
+    width: 900px;
+    border: 1px solid red;
+  }
+  #name {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  #comedian-name {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  #get-ticket-button {
+    font-size: 40px;
+    padding: 25px;
+    width: 200px;
+  }
+  #phone-screen {
+    width: 900px;
+  }
+  #title {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  #text-item {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  #ticket-date-sale-container {
+    width: 900px;
+  }
+  #matrife-image {
+    width: 900px;
+
+    height: 500px;
+  }
+  #about-matt-rife-container {
+    width: 900px;
+
+    margin-top: 5px;
+  }
+  #text-info {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #tiktok {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  #ig {
+    width: 60px;
+    height: 60px;
+  }
+  #footer {
+    width: 900px;
+  }
+  /* #social-media-container {
+    background-color: rgb(102, 161, 184);
+  } */
 }
