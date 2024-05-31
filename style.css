@@ -247,9 +247,9 @@ input {
     display: flex;
     flex-direction: column-reverse;
     border: 1px solid red;
-    width: 900px;
-    position: relative;
-    left: 10px;
+    width: 880px;
+    /* position: relative;
+    left: 10px; */
   }
   #social-media-container {
     margin: auto;
@@ -282,9 +282,9 @@ input {
     flex-direction: column-reverse;
     border: 1px solid red;
     /* margin-left: 150px; */
-    width: 900px;
-    position: relative;
-    left: 10px;
+    width: 880px;
+    /* position: relative;
+    left: 10px; */
   }
   #comedian-photo {
   }
@@ -345,5 +345,46 @@ input {
     height: 80px;
     border-radius: 50px;
     margin-bottom: 20px;
+  }
+  #signup-email {
+    border: 1px solid red;
+    width: 900px;
+
+    height: 660px;
+  }
+  #email-header {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  input {
+    height: 120px;
+    border-radius: 10px;
+    margin: 5px;
+  }
+  ::placeholder {
+    font-size: 30px;
+    padding: 5px;
+  }
+  #submit-button {
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  #info-text {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 36px;
+  }
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    width: 900px;
+  }
+  #copy-right-text {
+    font-size: 20px;
   }
 }
