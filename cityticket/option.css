@@ -107,6 +107,7 @@
 #price-link {
   padding: 13px;
   width: 400px;
+  color: rgb(18, 18, 18);
 }
 #seat {
   display: flex;
@@ -150,4 +151,30 @@
 }
 a {
   text-decoration: none;
+}
+@media only screen and (max-width: 1080px) {
+  #navbar-container-1 {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    width: 900px;
+  }
+  #ticketmaste-icon {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #nav-info-title {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 900px;
+  }
 }
