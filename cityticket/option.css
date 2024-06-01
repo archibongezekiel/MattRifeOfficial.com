@@ -246,4 +246,113 @@
     font-weight: 400;
     font-style: normal;
   }
+  /*  */
+  /*  */
+  #section-1 {
+    margin-top: 10px;
+    /* height: 80vh; */
+  }
+  #title {
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(27, 33, 36);
+    line-height: normal;
+    font-family: "Lato", sans-serif;
+  }
+  #ticket-section-container {
+    border: 1px solid rgb(141, 144, 145);
+    width: 900px;
+  }
+  #date-container {
+    color: black;
+    border-bottom: 5px solid rgb(2, 77, 223);
+    text-align: center;
+    padding: 20px;
+    font-family: "Lato", sans-serif;
+  }
+  #Category {
+    width: 900px;
+    padding: 20px;
+
+    border-bottom: 1px solid rgb(141, 144, 145);
+  }
+  #price-tag-container {
+    height: 55vh;
+    overflow: scroll;
+  }
+
+  #a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #seat-number-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #seat-number {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600px;
+    font-family: "Lato", sans-serif;
+  }
+  #price-fee-container {
+  }
+  #dollar-fee-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #dollar-fee {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600px;
+    font-family: "Lato", sans-serif;
+    padding-right: 15px;
+    color: rgb(2, 77, 223);
+  }
+
+  #charging-fee {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 100px;
+    font-family: "Lato", sans-serif;
+  }
+  #ticketmaster-option {
+    width: 85px;
+    padding: 8px;
+    outline: none;
+    font-size: 15px;
+  }
+  #ticket-type {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    font-family: "Lato", sans-serif;
+  }
+  .ticket-type-vip {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+  }
+  #footer {
+    width: 900px;
+
+    margin-top: 80px;
+    text-align: center;
+  }
+  #Checkout {
+    outline: none;
+    border: none;
+    width: 900px;
+    font-weight: 500;
+    padding: 40px;
+    background-color: rgb(2, 77, 223);
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    font-family: "Lato", sans-serif;
+  }
 }
