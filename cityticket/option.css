@@ -69,7 +69,7 @@
 }
 
 #section-1 {
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-top: 10px;
   /* height: 80vh; */
 }
@@ -161,8 +161,8 @@
 }
 #footer {
   width: 750px;
-  border: 1px solid red;
-  margin-left: 50px;
+  /* border: 1px solid red; */
+  /* margin-left: 50px; */
   margin-top: 10px;
   height: 10vh;
   text-align: center;
@@ -249,7 +249,7 @@
   /*  */
   /*  */
   #section-1 {
-    margin-top: 10px;
+    margin-top: 20px;
     /* height: 80vh; */
   }
   #title {
@@ -265,10 +265,14 @@
   }
   #date-container {
     color: black;
-    border-bottom: 5px solid rgb(2, 77, 223);
+    border-bottom: 7px solid rgb(2, 77, 223);
     text-align: center;
     padding: 20px;
     font-family: "Lato", sans-serif;
+  }
+  #date-month-year {
+    font-size: 35px;
+    line-height: 40px;
   }
   #Category {
     width: 900px;
@@ -291,8 +295,8 @@
     flex-direction: column;
   }
   #seat-number {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 600px;
     font-family: "Lato", sans-serif;
   }
@@ -304,7 +308,7 @@
   }
 
   #dollar-fee {
-    font-size: 20px;
+    font-size: 35px;
     line-height: 30px;
     font-weight: 600px;
     font-family: "Lato", sans-serif;
@@ -322,11 +326,11 @@
     width: 85px;
     padding: 8px;
     outline: none;
-    font-size: 15px;
+    font-size: 30px;
   }
   #ticket-type {
-    font-size: 16px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 40px;
     font-weight: 400;
     color: rgb(100, 100, 100);
     font-family: "Lato", sans-serif;
@@ -339,7 +343,6 @@
   }
   #footer {
     width: 900px;
-
     margin-top: 80px;
     text-align: center;
   }
