@@ -113,6 +113,10 @@
   display: flex;
   flex-direction: column;
 }
+.seat {
+  margin-left: 40px;
+  line-height: 30px;
+}
 #scroll {
   height: 400px;
   overflow: scroll;
@@ -156,11 +160,50 @@ a {
   #navbar-container-1 {
     background-color: black;
     color: white;
-    padding: 15px;
-    border-bottom: 1px solid rgb(66, 66, 66);
+    padding: 20px;
     width: 900px;
+    border-bottom: 1px solid rgb(66, 66, 66);
   }
   #ticketmaste-icon {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #right-icon {
+    font-size: 10px;
+  }
+
+  #nav-info-title {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 900px;
+  }
+  #Matt-Rife {
+    width: 200px;
+  }
+  #more-info {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-left: 20px;
+  }
+  #tour-title {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  #date-time {
     color: rgb(255, 255, 255);
     font-size: 20px;
     line-height: 25px;
@@ -169,12 +212,102 @@ a {
     font-weight: 400;
     font-style: normal;
   }
-  #nav-info-title {
+  #city-state-event {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #sideBar {
+    /* border: 1px solid red; */
+    /* display: flex;
+      align-items: center;
+      justify-content: space-between; */
+    width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid rgb(100, 100, 100);
+    padding: 10px;
+  }
+
+  #ticketOptionBar {
+  }
+  #select-ticket-option-container {
+  }
+  #select-ticket-option {
+    font-family: "Lato", sans-serif;
+    width: 800px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 15px;
+    color: rgb(18, 18, 18);
+    border-radius: 13px;
+  }
+  #price-tag {
     display: flex;
     align-items: center;
-    background-color: black;
-    color: white;
+    justify-content: space-between;
+    /* border-top: 1px solid rgb(100, 100, 100); */
+    border-bottom: 2px solid rgb(100, 100, 100);
+    text-align: center;
+    font-family: "Lato", sans-serif;
+  }
+  #price-link {
+    padding: 15px;
+    width: 400px;
+    color: rgb(18, 18, 18);
+  }
+  #seat {
+    display: flex;
+    flex-direction: column;
+  }
+  .seat {
+    margin-left: 40px;
+    line-height: 30px;
+  }
+  #scroll {
+    height: 400px;
+    overflow: scroll;
+  }
+  #tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(100, 100, 100);
+    width: 860px;
     padding: 10px;
-    width: 900px;
+  }
+  #seat-number {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(38, 38, 38);
+    line-height: 25px;
+    font-family: "Lato", sans-serif;
+  }
+  #station {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    font-family: "Lato", sans-serif;
+    color: rgb(100, 100, 100);
+  }
+  .price {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25px;
+    color: rgb(2, 77, 223);
+    font-family: "Lato", sans-serif;
+  }
+  .price:hover {
+    text-decoration: underline;
+  }
+  a {
+    text-decoration: none;
   }
 }
