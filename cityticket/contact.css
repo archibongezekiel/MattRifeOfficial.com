@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navbar-container-1 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-bottom: 1px solid rgb(66, 66, 66);
+}
+#ticketmaste-icon {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#right-icon {
+  font-size: 10px;
+}
+
+#nav-info-title {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#Matt-Rife {
+  width: 150px;
+}
+#more-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 15px;
+}
+#tour-title {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#date-time {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#city-state-event {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* #contact-container {
+}
+
+#contact-container {
+ 
+  width: 900px;
+ 
+  border: 1px solid rgb(66, 66, 66);
+  justify-content: center;
+  margin-top: 50px;
+}
+#username-email {
+  display: flex;
+  flex-direction: column;
+}
+#username-container {
+  border: 1px solid blue;
+  height: 180px;
+}
+#username-email {
+  display: flex;
+  align-items: center;
+}
+#email-con {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid red;
+}
+#confirm-email {
+  display: flex;
+  flex-direction: column;
+}
+#nu {
+  display: flex;
+  align-items: center;
+}
+#firstName,
+#emailName {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+#first-input {
+}
+#lastName {
+  display: flex;
+  flex-direction: column;
+}
+#last-input {
+}
+#email-input {
+}
+#phone-number-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#number-con {
+  display: flex;
+  flex-direction: column;
+}
+#number-option {
+  width: 80px;
+  height: 40px;
+}
+#phone-number-input {
+  width: 320px;
+}
+input {
+  outline: none;
+  border: none;
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 400;
+  border: 1px solid rgb(192, 196, 204);
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+} */
+#container {
+  width: 500px;
+}
+#firstName-container,
+#lasttName-container,
+#email-container,
+#confirm-email-container,
+#phone-container {
+  display: flex;
+  flex-direction: column;
+}
+#firstName-label,
+#conEamil-label,
+#phone-label,
+#email-label,
+#lastName-label {
+  font-size: 14px;
+  font-weight: 500px;
+  line-height: normal;
+  color: rgb(117, 117, 117);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 5px;
+}
+#firstName,
+#lastName,
+#conEmail,
+#email {
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(192, 196, 204);
+  border-radius: 5px;
+}
+#phone-number {
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid rgb(192, 196, 204);
+  border-radius: 5px;
+  width: 400px;
+}
+#number-code {
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(192, 196, 204);
+  outline: none;
+  margin-right: 10px;
+}
+
+::placeholder {
+  font-weight: 400;
+  color: rgb(27, 33, 36);
+  font-size: 14px;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+#button {
+  padding: 10px;
+  width: 500px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(192, 196, 204);
+  outline: none;
+  margin-right: 10px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  background: none;
+  color: white;
+  background-color: rgb(2, 77, 223);
+}

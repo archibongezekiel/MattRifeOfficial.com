@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      Matt Rife: ProbleMATTic World Tour Tickets Jun 12, 2024 Memphis, TN |
-      Ticketmaster
-    </title>
+    <title>Matt Rife: ProbleMATTic World Tour Tickets | Ticketmaster</title>
     <link
       rel="shortcut icon"
       href="https://www.ticketmaster.com/static/favicon-32x32.png"
@@ -46,7 +43,7 @@
           </div>
           <!--  -->
           <div id="price-tag-container">
-            <div id="Category">
+            <div id="Category" onclick="ticket1()">
               <div id="price-fee-container">
                 <!--  -->
                 <div id="a">
@@ -115,11 +112,11 @@
                   <div>
                     <select name="Tickets" id="ticketmaster-option">
                       <option value="0">0</option>
-                      <option value="0">1</option>
-                      <option value="0">2</option>
-                      <option value="0">3</option>
-                      <option value="0">4</option>
-                      <option value="0">5</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
                     </select>
                   </div>
                 </div>
@@ -693,7 +690,8 @@
       </section>
     </main>
     <footer id="footer">
-      <button id="Checkout">Continue to Checkout</button>
+      <button id="Checkout" onclick="action()">Continue to Checkout</button>
     </footer>
   </body>
+  <script src="option.js"></script>
 </html>
