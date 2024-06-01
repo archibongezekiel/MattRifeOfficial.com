@@ -344,7 +344,7 @@ input {
     border: none;
     padding: 35px;
     margin-top: 20px;
-    font-size: 30px;
+    font-size: 35px;
     border: 1px solid rgb(192, 196, 204);
     border-radius: 5px;
     color: rgb(117, 117, 117);
@@ -355,7 +355,7 @@ input {
   #phone-number {
     outline: none;
     border: none;
-    padding: 35px;
+    padding: 30px;
     margin-top: 20px;
     border: 1px solid rgb(192, 196, 204);
     border-radius: 5px;
@@ -363,7 +363,7 @@ input {
     color: rgb(117, 117, 117);
     font-family: "Lato", sans-serif;
     font-weight: 700;
-    font-size: 30pc;
+    font-size: 30px;
     font-style: normal;
   }
   #number-code {
@@ -380,7 +380,7 @@ input {
   ::placeholder {
     font-weight: 400;
     color: rgb(27, 33, 36);
-    font-size: 20px;
+    font-size: 30px;
     line-height: 40px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -396,7 +396,7 @@ input {
     border: 1px solid rgb(192, 196, 204);
     outline: none;
     margin-right: 10px;
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
