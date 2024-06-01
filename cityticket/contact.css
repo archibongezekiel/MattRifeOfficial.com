@@ -234,3 +234,170 @@ input {
   color: white;
   background-color: rgb(2, 77, 223);
 }
+/* phone screen */
+@media only screen and (max-width: 1080px) {
+  #navbar-container-1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+    width: 900px;
+  }
+  #ticketmaste-icon {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #right-icon {
+    font-size: 25px;
+  }
+
+  #nav-info-title {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 900px;
+  }
+  #Matt-Rife {
+    width: 200px;
+  }
+  #more-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 20px;
+  }
+  #tour-title {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  #date-time {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #city-state-event {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #container {
+    width: 900px;
+    margin-top: 100px;
+  }
+  #contact-title {
+  }
+  #title {
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px;
+  }
+  #firstName-container,
+  #lasttName-container,
+  #email-container,
+  #confirm-email-container,
+  #phone-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #firstName-label,
+  #conEamil-label,
+  #phone-label,
+  #email-label,
+  #lastName-label {
+    font-size: 20px;
+    font-weight: 500px;
+    line-height: normal;
+    color: rgb(117, 117, 117);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  #firstName,
+  #lastName,
+  #conEmail,
+  #email {
+    outline: none;
+    border: none;
+    padding: 35px;
+    margin-top: 20px;
+    border: 1px solid rgb(192, 196, 204);
+    border-radius: 5px;
+  }
+  #phone-number {
+    outline: none;
+    border: none;
+    padding: 35px;
+    margin-top: 20px;
+    border: 1px solid rgb(192, 196, 204);
+    border-radius: 5px;
+    width: 600px;
+  }
+  #number-code {
+    width: 400px;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 196, 204);
+    outline: none;
+    margin-right: 20px;
+    font-size: 30px;
+  }
+
+  ::placeholder {
+    font-weight: 400;
+    color: rgb(27, 33, 36);
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+  }
+  #button {
+    padding: 20px;
+    width: 900px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(192, 196, 204);
+    outline: none;
+    margin-right: 10px;
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    background: none;
+    color: white;
+    background-color: rgb(2, 77, 223);
+  }
+  #payment-button-container {
+    margin-top: 80px;
+  }
+  #paypal-logo {
+    margin-top: 30px;
+  }
+}
