@@ -230,18 +230,20 @@ a {
 .down-arrow {
   margin: auto;
 }
+/* phone screen */
 @media only screen and (max-width: 1080px) {
   #header-navbar-container {
     background-color: rgb(0, 64, 173);
-    padding: 25px;
+    padding: 35px;
     width: 1000px;
+    height: 200px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-style: normal;
     box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
   }
   #ticketmaste-icon {
-    font-size: 30px;
+    font-size: 40px;
     color: white;
   }
   #right-icon {
@@ -256,6 +258,11 @@ a {
   }
   #payout-text {
     color: white;
+    font-size: 40px;
+  }
+  .paypal-icon-id {
+    width: 150px;
+    height: 120px;
   }
   #main-navbar {
     display: flex;
@@ -265,12 +272,10 @@ a {
   #payout-container {
     border: 1px solid rgb(227, 227, 227);
     border-radius: 5px;
-    height: 90vh;
+    height: 80vh;
     width: 900px;
-    margin: auto;
     box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
     margin-top: 25px;
-    padding: 20px;
   }
   /* ul {
     list-style: none;
@@ -289,107 +294,118 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 30px;
+    margin-top: 50px;
   }
   #paypal-icon-name {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(244, 244, 244);
-    height: 110px;
-    width: 300px;
+    height: 190px;
+    width: 400px;
     border-radius: 5px;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 25px;
-    line-height: 20px;
+    line-height: 20px; */
   }
-  .paypal-icon-id {
-    width: 50px;
-    height: 50px;
-  }
+
   #paypal-tag-name {
     background-color: rgb(244, 244, 244);
-    height: 110px;
-    width: 300px;
+    height: 190px;
+    width: 400px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     border-radius: 5px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    padding: 25px;
-    font-size: 25px;
   }
   #zelle-icon-tag {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(244, 244, 244);
-    height: 110px;
-    width: 300px;
+    height: 190px;
+    width: 400px;
     border-radius: 5px;
-    font-family: "Montserrat", sans-serif;
+    /* font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 30px;
-    line-height: 20px;
+    line-height: 20px; */
   }
   #copyButton {
     outline: none;
     border: none;
+    background: none;
   }
-  #zelle-tag-name {
-    background-color: rgb(244, 244, 244);
-    height: 110px;
-    width: 300px;
-    border-radius: 5px;
+  #copyIconPaypal,
+  #copyIconZelle,
+  #copyIconVenmo,
+  #copyIcon {
+    font-size: 50px;
+    padding: 10px;
+  }
+  #zName,
+  #vName,
+  #cName,
+  #pName {
+    font-size: 30px;
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-size: 30px;
+    line-height: 20px;
+    padding: 10px;
+  }
+  #cIcon,
+  .vIcon,
+  .pIcon {
+    width: 60px;
+    height: 60px;
+  }
+  #zIcon {
+    width: 70px;
+    height: 70px;
+  }
+
+  #zelle-tag-name {
+    background-color: rgb(244, 244, 244);
+    height: 190px;
+    width: 400px;
+    border-radius: 5px;
     padding: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
   }
-  #p {
-  }
+
   #venmo-icon-tag {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: rgb(244, 244, 244);
-    height: 110px;
+    height: 190px;
     border-radius: 5px;
-    width: 300px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 15px;
-    line-height: 20px;
+    width: 400px;
   }
   #venmo-tag-name {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     background-color: rgb(244, 244, 244);
-    height: 110px;
-    width: 300px;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    height: 190px;
+    width: 400px;
     border-radius: 5px;
-    font-size: 14px;
-    padding: 20px;
   }
 
   #cashApp-icon-tag {
@@ -397,39 +413,40 @@ a {
     align-items: center;
     justify-content: center;
     background-color: rgb(244, 244, 244);
-    height: 110px;
+    height: 190px;
     border-radius: 5px;
-    width: 300px;
-    font-family: "Montserrat", sans-serif;
+    width: 400px;
+    /* font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
-    line-height: 20px;
+    line-height: 20px; */
   }
   #cashApp-tag-name {
     display: flex;
     align-items: center;
     flex-direction: column;
+    justify-content: center;
     background-color: rgb(244, 244, 244);
-    height: 110px;
-    width: 300px;
-    font-family: "Montserrat", sans-serif;
+    height: 190px;
+    width: 400px;
+    /* font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
     border-radius: 5px;
-    font-size: 14px;
-    padding: 20px;
+    font-size: 20px;
+    padding: 20px; */
   }
   #paypal-tag,
   #zelle-tag,
   #venmo-tag,
   #cashAppName {
-    font-size: 12px;
-    margin: 10px;
+    font-size: 20px;
+    /* margin: 10px; */
     font-family: "Lato", sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     font-style: normal;
     line-height: 20px;
   }
@@ -439,9 +456,9 @@ a {
     border-bottom: 1px solid rgb(124, 124, 124);
   }
   #policy-text {
-    font-size: 15px;
-    line-height: 20px;
-    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 500;
     color: rgb(124, 124, 124);
     font-family: "Lato", sans-serif;
     font-style: normal;
@@ -455,10 +472,27 @@ a {
     flex-direction: column;
     text-align: center;
     border: 1px solid red;
-    padding: 20px;
-    margin-top: 20px;
+    /* padding: 30px; */
+    margin-top: 50px;
   }
   .down-arrow {
     margin: auto;
+    margin-bottom: 50px;
+    width: 150px;
+    height: 150px;
+  }
+  #verified-payment {
+    font-size: 35px;
+    outline: none;
+    border: none;
+    background: none;
+    background-color: rgb(2, 77, 223);
+    color: white;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
   }
 }
