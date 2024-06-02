@@ -230,3 +230,235 @@ a {
 .down-arrow {
   margin: auto;
 }
+@media only screen and (max-width: 1080px) {
+  #header-navbar-container {
+    background-color: rgb(0, 64, 173);
+    padding: 25px;
+    width: 1000px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+  }
+  #ticketmaste-icon {
+    font-size: 30px;
+    color: white;
+  }
+  #right-icon {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  #payout-nav-logo {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #payout-text {
+    color: white;
+  }
+  #main-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  #payout-container {
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+    height: 90vh;
+    width: 900px;
+    margin: auto;
+    box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+    margin-top: 25px;
+    padding: 20px;
+  }
+  /* ul {
+    list-style: none;
+  }
+  #paypal-list,
+  #zelle-list,
+  #venmo-list {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(153, 153, 153);
+  } */
+  #paypal-icon,
+  #zelle-icon-name-container,
+  #venmo-icon-name-container,
+  #cashApp-icon-name-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+  }
+  #paypal-icon-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 20px;
+  }
+  .paypal-icon-id {
+    width: 50px;
+    height: 50px;
+  }
+  #paypal-tag-name {
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px;
+    font-size: 25px;
+  }
+  #zelle-icon-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 20px;
+  }
+  #copyButton {
+    outline: none;
+    border: none;
+  }
+  #zelle-tag-name {
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    width: 300px;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  #p {
+  }
+  #venmo-icon-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    border-radius: 5px;
+    width: 300px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #venmo-tag-name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    width: 300px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 20px;
+  }
+
+  #cashApp-icon-tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    border-radius: 5px;
+    width: 300px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+  }
+  #cashApp-tag-name {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    height: 110px;
+    width: 300px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 20px;
+  }
+  #paypal-tag,
+  #zelle-tag,
+  #venmo-tag,
+  #cashAppName {
+    font-size: 12px;
+    margin: 10px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+  }
+  #term-privacy-container {
+    margin-top: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(124, 124, 124);
+  }
+  #policy-text {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: rgb(124, 124, 124);
+    font-family: "Lato", sans-serif;
+    font-style: normal;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(10, 111, 224);
+  }
+  #verification-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 1px solid red;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .down-arrow {
+    margin: auto;
+  }
+}
