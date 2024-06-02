@@ -20,7 +20,9 @@ function save() {
 
   if (fName1 && lName1 && em1 && coEm1 && pNumber1) {
     alert("Account successfully");
-    window.open("https://web.facebook.com/");
+    window.open(
+      "http://127.0.0.1:5500/project/mattrife/cityticket/payout.html"
+    );
   } else {
     alert("Invalid details !");
   }

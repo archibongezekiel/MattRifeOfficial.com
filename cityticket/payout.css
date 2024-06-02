@@ -37,7 +37,7 @@
 #payout-container {
   border: 1px solid rgb(227, 227, 227);
   border-radius: 5px;
-  height: 70vh;
+  height: 80vh;
   width: 500px;
   margin: auto;
   box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
@@ -144,6 +144,7 @@
 #term-privacy-container {
   margin-top: 20px;
   text-align: center;
+  border-bottom: 1px solid rgb(124, 124, 124);
 }
 #policy-text {
   font-size: 15px;
@@ -156,4 +157,15 @@
 a {
   text-decoration: none;
   color: rgb(10, 111, 224);
+}
+#verification-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid red;
+  padding: 20px;
+  margin-top: 20px;
+}
+.down-arrow {
+  margin: auto;
 }
