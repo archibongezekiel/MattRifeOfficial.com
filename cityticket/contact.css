@@ -262,11 +262,11 @@ input {
     color: white;
     padding: 20px;
     border-bottom: 1px solid rgb(66, 66, 66);
-    width: 920px;
+    width: 910px;
   }
   #ticketmaste-icon {
     color: rgb(255, 255, 255);
-    font-size: 35px;
+    font-size: 40px;
     line-height: 40px;
     font-weight: 600;
     font-family: "Lato", sans-serif;
@@ -283,7 +283,7 @@ input {
     background-color: black;
     color: white;
     padding: 20px;
-    width: 920px;
+    width: 910px;
   }
   #Matt-Rife {
     width: 200px;
@@ -423,6 +423,7 @@ input {
     font-style: normal;
     background: none;
     color: white;
+
     background-color: rgb(2, 77, 223);
   }
   #payment-button-container {

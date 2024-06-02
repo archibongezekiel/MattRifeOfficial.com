@@ -17,6 +17,10 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
   </head>
   <body>
     <header id="header-navbar-container">
@@ -302,8 +306,17 @@
         <!-- verification -->
         <div id="verification-container">
           <div>
-            <p>hh</p>
-            <p>djs</p>
+            <div id="instruction-message-container">
+              <span class="material-symbols-outlined" id="errorIcon">
+                error
+              </span>
+              <span id="instruction-message">
+                Tickets will only be sent to the email address you provided
+              </span>
+            </div>
+            <p id="instruction-message">
+              Please share your receipt slip for payment verification below.
+            </p>
           </div>
           <svg
             fill="#000000"
