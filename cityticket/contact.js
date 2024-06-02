@@ -19,6 +19,7 @@ function save() {
   var pNumber1 = localStorage.getItem("phoneNumber", phoneNumber);
 
   if (fName1 && lName1 && em1 && coEm1 && pNumber1) {
+    alert("Account successfully");
     window.open("https://web.facebook.com/");
   } else {
     alert("Invalid details !");
