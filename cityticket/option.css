@@ -67,14 +67,33 @@
   font-weight: 400;
   font-style: normal;
 }
-
+#shadowBox {
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 5px;
+  height: 100%;
+  width: 600px;
+  margin: auto;
+  box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+  margin-top: 20px;
+  padding: 10px;
+  height: 100%;
+}
 #section-1 {
   /* margin-left: 50px; */
   margin-top: 10px;
+
+  /* border: 1px solid rgb(227, 227, 227);
+  border-radius: 5px;
+  height: 100%;
+  width: 600px;
+  margin: auto;
+  box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+  margin-top: 20px;
+  padding: 10px; */
   /* height: 80vh; */
 }
 #title {
-  font-size: 40px;
+  font-size: 25px;
   font-weight: 700;
   color: rgb(27, 33, 36);
   line-height: normal;
@@ -82,21 +101,24 @@
   margin-bottom: 10px;
 }
 #ticket-section-container {
-  border: 1px solid rgb(141, 144, 145);
-  width: 750px;
+  /* border: 1px solid rgb(141, 144, 145); */
+  /* width: 750px; */
+  /* height: 100vh;
+  } */
 }
 #date-container {
   color: black;
   border-bottom: 5px solid rgb(2, 77, 223);
   text-align: center;
-  padding: 20px;
+  padding: 5px;
   font-family: "Lato", sans-serif;
 }
 #Category {
-  width: 730px;
+  /* width: 730px; */
   padding: 20px;
   margin: auto;
   border-bottom: 1px solid rgb(141, 144, 145);
+  /* height: 500px; */
 }
 #price-tag-container {
   height: 55vh;
@@ -160,19 +182,20 @@
 .icon {
 }
 #footer {
-  width: 750px;
+  /* border: 1px solid red; */
+  /* width: 750px; */
   /* border: 1px solid red; */
   /* margin-left: 50px; */
-  margin-top: 10px;
-  height: 10vh;
-  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 100%;
+  /* text-align: center; */
 }
 #Checkout {
   outline: none;
   border: none;
-  width: 750px;
+  width: 580px;
   font-weight: 500;
-
   padding: 20px;
   background-color: rgb(2, 77, 223);
   color: white;
@@ -186,7 +209,7 @@
     background-color: black;
     color: white;
     padding: 20px;
-    width: 900px;
+    width: 920px;
     border-bottom: 1px solid rgb(66, 66, 66);
   }
   #ticketmaste-icon {
@@ -208,7 +231,7 @@
     background-color: black;
     color: white;
     padding: 20px;
-    width: 900px;
+    width: 920px;
   }
   #Matt-Rife {
     width: 200px;
@@ -250,26 +273,37 @@
   }
   /*  */
   /*  */
+  #shadowBox {
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+    height: 100%;
+    width: 920px;
+    margin: auto;
+    box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+    margin-top: 20px;
+    padding: 10px;
+    height: 100%;
+  }
   #section-1 {
     margin-top: 20px;
-    /* height: 80vh; */
+    /* height: 94vh; */
   }
   #title {
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
     color: rgb(27, 33, 36);
     line-height: normal;
     font-family: "Lato", sans-serif;
   }
   #ticket-section-container {
-    border: 1px solid rgb(141, 144, 145);
+    /* border: 1px solid rgb(141, 144, 145); */
     width: 900px;
   }
   #date-container {
     color: black;
     border-bottom: 7px solid rgb(2, 77, 223);
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     font-family: "Lato", sans-serif;
   }
   #date-month-year {
@@ -277,10 +311,9 @@
     line-height: 40px;
   }
   #Category {
-    width: 900px;
+    /* width: 900px;
     padding: 20px;
-
-    border-bottom: 1px solid rgb(141, 144, 145);
+    border-bottom: 1px solid rgb(141, 144, 145); */
   }
   #price-tag-container {
     height: 85vh;
@@ -346,7 +379,8 @@
   }
   #footer {
     width: 900px;
-    margin-top: 80px;
+    margin-top: 60px;
+    margin-bottom: 100px;
     text-align: center;
   }
   #Checkout {

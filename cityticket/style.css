@@ -228,7 +228,7 @@ a {
   color: rgb(0, 105, 170);
   font-style: normal;
   padding: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 #get-button {
   font-size: 18px;
@@ -240,7 +240,7 @@ a {
   font-style: normal;
   border-radius: 20px;
   padding: 20px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 @media only screen and (max-width: 1080px) {
   #nav {
@@ -405,9 +405,10 @@ a {
   }
   #tickets-button {
     text-align: center;
-    height: 60vh;
+    height: 100%;
     padding: 20px;
     width: 900px;
+    margin-bottom: 100px;
   }
   #icon {
     margin: auto;
@@ -443,7 +444,7 @@ a {
     color: rgb(0, 105, 170);
     font-style: normal;
     padding: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 80px;
   }
   #get-button {
     font-size: 30px;
@@ -455,6 +456,6 @@ a {
     font-style: normal;
     padding: 25px;
     border-radius: 20px;
-    margin-top: 50px;
+    /* margin-top: 90px; */
   }
 }
