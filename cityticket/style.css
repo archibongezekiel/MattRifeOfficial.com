@@ -352,6 +352,7 @@ a {
   #purchase-box-container {
     border: 1px solid rgb(207, 207, 207);
     width: 500px;
+    height: 350px;
     margin: auto;
     margin-top: 20px;
   }
@@ -367,11 +368,11 @@ a {
     flex-direction: column;
     text-align: center;
   }
-  #tickets-purchase-box:hover {
+  /* #tickets-purchase-box:hover {
     background-color: rgb(242, 249, 255);
-  }
+  } */
   #tickets-title {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
     line-height: 22px;
     color: rgb(80, 80, 80);
@@ -379,8 +380,15 @@ a {
     padding: 10px;
     margin: 10px;
   }
+  #name-of-host {
+    width: 600px;
+  }
   a {
     text-decoration: none;
+  }
+  #tickets-purchase-box-link {
+    margin-top: 20px;
+    padding: 30px;
   }
   #name-1 {
     font-size: 25px;
@@ -408,6 +416,10 @@ a {
     flex-direction: column;
     margin-top: 20px;
     padding: 10px;
+  }
+  .icon1 {
+    width: 350px;
+    height: 150px;
   }
   #about-container {
     text-align: center;
@@ -503,7 +515,7 @@ a {
     /* color: rgb(80, 80, 80); */
     color: rgb(255, 255, 255);
     font-style: normal;
-    padding: 25px;
+    padding: 30px;
     border-radius: 20px;
     /* margin-top: 90px; */
     background-color: rgb(1, 105, 214);
