@@ -381,7 +381,7 @@ a {
     margin: 10px;
   }
   #name-of-host {
-    width: 600px;
+    width: 800px;
   }
   a {
     text-decoration: none;
@@ -410,12 +410,16 @@ a {
     display: flex;
     flex-direction: column;
     padding: 10px;
+
+    width: 800px;
   }
   #show-info {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     padding: 10px;
+
+    width: 800px;
   }
   .icon1 {
     width: 350px;
