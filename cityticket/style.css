@@ -293,7 +293,8 @@ a {
     font-family: "Lato", sans-serif;
   }
   #nav-image {
-    width: 350px;
+    width: 300px;
+    height: 200px;
   }
   #navbar-container {
     display: flex;
@@ -341,7 +342,7 @@ a {
     color: black;
   }
   #city {
-    font-size: 25px;
+    font-size: 20px;
     line-height: 30px;
     font-family: "Lato", sans-serif;
     font-weight: 500;
