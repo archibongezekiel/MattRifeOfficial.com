@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yarndings+12&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Yarndings+12&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: auto;
+}
+#social-media-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 150px;
+}
+#navbarPageList-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#home,
+#show,
+#shop {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 14px;
+  font-family: "Asap", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+#home:hover {
+  color: rgb(178, 13, 9);
+}
+#show:hover {
+  color: rgb(178, 13, 9);
+}
+#shop:hover {
+  color: rgb(178, 13, 9);
+}
+li {
+  padding: 10px;
+  color: black;
+}
+#section1 {
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+#comedian-photo {
+}
+#tour-title {
+  display: flex;
+  flex-direction: column;
+}
+#fine-city-button {
+  outline: none;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 240px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  word-spacing: 5px;
+}
+#fine-city-button:hover {
+  background-color: rgb(213, 213, 213);
+}
+#show-title {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+#g {
+  padding: 5px;
+}
+#city-section {
+  padding: 10px;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  border-bottom: 1px solid rgb(178, 13, 9);
+  width: 90%;
+  margin: auto;
+}
+#city-link {
+  color: rgb(178, 13, 9);
+}
+#ticket-container {
+  /* border-top: 1px solid rgb(178, 13, 9);
+  border-bottom: 1px solid rgb(178, 13, 9); */
+
+  padding: 30px;
+  margin: auto;
+  width: 95%;
+}
+#ticket-table {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border-top: 1px solid rgb(178, 13, 9); */
+  border-bottom: 1px solid rgb(178, 13, 9);
+  padding: 30px;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+}
+#location-center {
+  text-align: center;
+}
+#date {
+  font-size: 25px;
+  line-height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+#city-state {
+  font-size: 30px;
+  line-height: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+#arena-center {
+  font-size: 14px;
+  line-height: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+#ticket-button {
+  outline: none;
+  border: none;
+  background: none;
+  border: 2px solid black;
+  border-radius: 30px;
+  padding: 10px;
+  width: 170px;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+#ticket-button:hover {
+  background-color: rgb(213, 213, 213);
+}
+#signup-email {
+  width: 900px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+#email-header {
+  font-size: 25px;
+  line-height: 22px;
+  font-weight: 900;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  padding: 10px;
+}
+#form-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+input {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(213, 213, 213);
+  margin-top: 10px;
+  padding: 15px;
+  color: black;
+}
+::placeholder {
+  color: black;
+  opacity: 1;
+  font-weight: 400;
+
+  font-family: "Roboto", sans-serif;
+}
+#submit-button {
+  outline: none;
+  border: none;
+  background: none;
+  border: 2px solid black;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+  padding: 8px;
+}
+#submit-button:hover {
+  background-color: rgb(213, 213, 213);
+}
+#footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#info-text {
+  font-size: 10px;
+  line-height: 10px;
+  font-weight: 400;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+#copy-right-container {
+}
+#copy-right-text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: black;
+}
+@media only screen and (max-width: 1080px) {
+  #navbar-container {
+    display: flex;
+    flex-direction: column-reverse;
+
+    width: 910px;
+    /* position: relative;
+    left: 10px; */
+  }
+  #social-media-container {
+    margin: auto;
+  }
+  #ig {
+    width: 55px;
+    height: 55px;
+    margin: 10px;
+  }
+  #tiktok {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  #mattrife-logo {
+    width: 610px;
+  }
+  #navbarPageList-container {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  #home,
+  #shop,
+  #show {
+    font-size: 45px;
+  }
+  #section1 {
+    display: flex;
+    flex-direction: column-reverse;
+
+    /* margin-left: 150px; */
+    width: 910px;
+    /* position: relative;
+    left: 10px; */
+  }
+  #comedian-photo {
+  }
+  #photo {
+    margin-top: 20px;
+    width: 800px;
+  }
+  #fine-city-button {
+    font-size: 35px;
+    width: 400px;
+    height: 100px;
+    border-radius: 50px;
+  }
+  #tour-title {
+    margin-top: 30px;
+  }
+  #upcoming-show {
+    width: 700px;
+    height: 100px;
+  }
+  #city-section {
+    position: relative;
+    left: 10px;
+    width: 900px;
+  }
+  #city-link {
+    font-size: 40px;
+  }
+  p {
+    font-size: 40px;
+  }
+  #ticket-table {
+    position: relative;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 800px;
+  }
+  #date {
+    margin: 25px;
+    font-size: 35px;
+  }
+  #location-center {
+    margin: 25px;
+  }
+  #city-state {
+    margin: 25px;
+    font-size: 40px;
+  }
+  #arena-center {
+    font-size: 30px;
+  }
+  #ticket-button {
+    margin: 25px;
+    font-size: 30px;
+    width: 280px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+  }
+  #signup-email {
+    width: 900px;
+
+    height: 660px;
+  }
+  #email-header {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  input {
+    height: 120px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 35px;
+  }
+  ::placeholder {
+    font-size: 30px;
+    padding: 5px;
+  }
+  #submit-button {
+    height: 90px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 5px;
+  }
+
+  #info-text {
+    font-size: 25px;
+    margin-top: 20px;
+    line-height: 36px;
+  }
+  #footer-container {
+    display: flex;
+    flex-direction: column;
+
+    width: 900px;
+  }
+  #copy-right-text {
+    font-size: 20px;
+  }
+}
