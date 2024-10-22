@@ -20,9 +20,7 @@ function save() {
 
   if (fName1 && lName1 && em1 && coEm1 && pNumber1) {
     alert("Account successfully");
-    window.open(
-      "https://mattrifeofficial-com.vercel.app/cityticket/payout.html"
-    );
+    window.open("payment.html");
   } else {
     alert("Invalid details !");
   }
