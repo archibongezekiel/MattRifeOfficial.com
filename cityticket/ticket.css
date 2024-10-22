@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 25px;
+  margin-top: 5px;
+}
+#name {
+  font-size: 16px;
+  line-height: normal;
+}
+#comedian-name {
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  line-height: 65px;
+  font-size: 61px;
+}
+#get-ticket-button {
+  outline: none;
+  border: none;
+  padding: 15px;
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 700;
+  background: none;
+  border: 1px solid rgb(102, 161, 184);
+  width: 200px;
+  border-radius: 5px;
+}
+#get-ticket-button:hover {
+  background-color: rgb(102, 161, 184);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#ticket-date-sale-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 3px solid rgb(102, 161, 184);
+  border-bottom: 3px solid rgb(102, 161, 184);
+  padding: 50px;
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+#text-contain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 5px;
+}
+#title {
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 700;
+  color: black;
+  font-family: "League Gothic", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 200;
+  padding: 5px;
+}
+#text-item {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: black;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px;
+}
+#photo-container {
+  height: 100vh;
+}
+#about-matt-rife-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 80%;
+  margin: auto;
+}
+#text-info {
+  line-height: 24px;
+  margin: 20px;
+  font-size: 17px;
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+footer {
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#social-media-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 150px;
+}
+#navbarPageList-container {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-right: 150px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+li {
+  padding: 10px;
+}
+@media only screen and (max-width: 1080px) {
+  #navbar-container {
+    width: 900px;
+
+    padding: 35px;
+  }
+  #name {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  #comedian-name {
+    font-size: 55px;
+    line-height: 60px;
+  }
+  #get-ticket-button {
+    font-size: 40px;
+    padding: 25px;
+    width: 200px;
+  }
+  #phone-screen {
+    width: 900px;
+  }
+  #title {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  #text-item {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  #ticket-date-sale-container {
+    width: 800px;
+
+    padding: 40px;
+  }
+  #matrife-image {
+    width: 900px;
+    height: 500px;
+  }
+  #about-matt-rife-container {
+    width: 900px;
+
+    margin-top: 100px;
+  }
+  #text-info {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  #tiktok {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+  }
+  #ig {
+    width: 60px;
+    height: 60px;
+  }
+  #footer {
+    width: 900px;
+  }
+  /* #social-media-container {
+    background-color: rgb(102, 161, 184);
+  } */
+}

@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+#navbar-container-1 {
+  background-color: black;
+  color: white;
+  padding: 15px;
+  border-bottom: 1px solid rgb(66, 66, 66);
+}
+#ticketmaste-icon {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#right-icon {
+  font-size: 10px;
+}
+
+#nav-info-title {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+#Matt-Rife {
+  width: 150px;
+}
+#more-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  margin-left: 15px;
+}
+#tour-title {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+#date-time {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#city-state-event {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#shadowBox {
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 5px;
+  height: 100%;
+  width: 600px;
+  margin: auto;
+  box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+  margin-top: 20px;
+  padding: 10px;
+  height: 100%;
+}
+#section-1 {
+  /* margin-left: 50px; */
+  margin-top: 10px;
+
+  /* border: 1px solid rgb(227, 227, 227);
+  border-radius: 5px;
+  height: 100%;
+  width: 600px;
+  margin: auto;
+  box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+  margin-top: 20px;
+  padding: 10px; */
+  /* height: 80vh; */
+}
+#title {
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(27, 33, 36);
+  line-height: normal;
+  font-family: "Lato", sans-serif;
+  margin-bottom: 10px;
+}
+#ticket-section-container {
+  /* border: 1px solid rgb(141, 144, 145); */
+  /* width: 750px; */
+  /* height: 100vh;
+  } */
+}
+#date-container {
+  color: black;
+  border-bottom: 5px solid rgb(2, 77, 223);
+  text-align: center;
+  padding: 5px;
+  font-family: "Lato", sans-serif;
+}
+#Category {
+  /* width: 730px; */
+  padding: 20px;
+  margin: auto;
+  border-bottom: 1px solid rgb(141, 144, 145);
+  /* height: 500px; */
+}
+#price-tag-container {
+  height: 55vh;
+  overflow: scroll;
+}
+
+#a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#seat-number-container {
+  display: flex;
+  flex-direction: column;
+}
+#seat-number {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 600px;
+  font-family: "Lato", sans-serif;
+}
+#price-fee-container {
+}
+#dollar-fee-container {
+  display: flex;
+  align-items: center;
+}
+
+#dollar-fee {
+  font-size: 17px;
+  line-height: 25px;
+  font-weight: 600px;
+  font-family: "Lato", sans-serif;
+  padding-right: 10px;
+  color: rgb(2, 77, 223);
+}
+
+#charging-fee {
+  font-size: 12px;
+  line-height: 25px;
+  font-weight: 100px;
+  font-family: "Lato", sans-serif;
+}
+#ticketmaster-option {
+  width: 85px;
+  padding: 8px;
+  outline: none;
+  font-size: 30px;
+}
+#ticket-type {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+  font-family: "Lato", sans-serif;
+}
+.ticket-type-vip {
+  display: flex;
+  align-items: center;
+}
+.icon {
+}
+#footer {
+  /* border: 1px solid red; */
+  /* width: 750px; */
+  /* border: 1px solid red; */
+  /* margin-left: 50px; */
+  margin-top: 30px;
+  margin-bottom: 50px;
+  height: 100%;
+  /* text-align: center; */
+}
+#Checkout {
+  outline: none;
+  border: none;
+  width: 580px;
+  font-weight: 500;
+  padding: 20px;
+  background-color: rgb(2, 77, 223);
+  color: white;
+  font-size: 20px;
+  border-radius: 10px;
+  font-family: "Lato", sans-serif;
+}
+/* phone screen */
+@media only screen and (max-width: 1080px) {
+  #navbar-container-1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 920px;
+    border-bottom: 1px solid rgb(66, 66, 66);
+  }
+  #ticketmaste-icon {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  #right-icon {
+    font-size: 20px;
+  }
+
+  #nav-info-title {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 920px;
+  }
+  #Matt-Rife {
+    width: 200px;
+  }
+  #more-info {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-left: 20px;
+  }
+  #tour-title {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 10px;
+  }
+  #date-time {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-bottom: 10px;
+  }
+  #city-state-event {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  /*  */
+  /*  */
+  #shadowBox {
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 5px;
+    height: 100%;
+    width: 920px;
+    margin: auto;
+    box-shadow: 2px 10px 20px 10px rgb(227, 227, 227);
+    margin-top: 20px;
+    padding: 10px;
+    height: 100%;
+  }
+  #section-1 {
+    margin-top: 20px;
+    /* height: 94vh; */
+  }
+  #title {
+    font-size: 35px;
+    font-weight: 700;
+    color: rgb(27, 33, 36);
+    line-height: normal;
+    font-family: "Lato", sans-serif;
+  }
+  #ticket-section-container {
+    /* border: 1px solid rgb(141, 144, 145); */
+    width: 900px;
+  }
+  #date-container {
+    color: black;
+    border-bottom: 7px solid rgb(2, 77, 223);
+    text-align: center;
+    padding: 10px;
+    font-family: "Lato", sans-serif;
+  }
+  #date-month-year {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  #Category {
+    /* width: 900px;
+    padding: 20px;
+    border-bottom: 1px solid rgb(141, 144, 145); */
+  }
+  #price-tag-container {
+    height: 85vh;
+    overflow: scroll;
+  }
+
+  #a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  #seat-number-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #seat-number {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 600px;
+    font-family: "Lato", sans-serif;
+  }
+  #price-fee-container {
+  }
+  #dollar-fee-container {
+    display: flex;
+    align-items: center;
+  }
+
+  #dollar-fee {
+    font-size: 35px;
+    line-height: 30px;
+    font-weight: 600px;
+    font-family: "Lato", sans-serif;
+    padding-right: 15px;
+    color: rgb(2, 77, 223);
+  }
+
+  #charging-fee {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 100px;
+    font-family: "Lato", sans-serif;
+  }
+  #ticketmaster-option {
+    width: 100px;
+    padding: 8px;
+    outline: none;
+    font-size: 40px;
+    margin-right: 30px;
+  }
+  #ticket-type {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    color: rgb(100, 100, 100);
+    font-family: "Lato", sans-serif;
+  }
+  .ticket-type-vip {
+    display: flex;
+    align-items: center;
+  }
+  .icon {
+  }
+  #footer {
+    width: 900px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  #Checkout {
+    outline: none;
+    border: none;
+    width: 900px;
+    font-weight: 500;
+    padding: 40px;
+    background-color: rgb(2, 77, 223);
+    color: white;
+    font-size: 30px;
+    border-radius: 15px;
+    font-family: "Lato", sans-serif;
+  }
+}
